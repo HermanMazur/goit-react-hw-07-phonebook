@@ -9,7 +9,7 @@ export function ContactForm({onAddContacs}) {
   const nameId = nanoid(5);
   const numberId = nanoid(5);
 
-//обновление состояния
+
   const handleChange = event => {
     const { name, value } = event.currentTarget;
     switch (name) {
